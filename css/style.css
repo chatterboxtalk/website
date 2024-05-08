@@ -394,6 +394,10 @@ a:focus {
   margin-top: 15px;
 }
 
+.text-color {
+  color: #999;
+}
+
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
@@ -822,6 +826,17 @@ a:focus {
 }
 
 .contact_section .form_container input {
+  width: 100%;
+  border: 1px solid #b0b0b0;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  background-color: transparent;
+  outline: none;
+  color: #101010;
+}
+
+select {
   width: 100%;
   border: 1px solid #b0b0b0;
   height: 50px;
