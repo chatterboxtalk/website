@@ -144,8 +144,8 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  padding: 3px 15px;
-  margin: 10px 15px;
+  padding: 3px 3px;
+  margin: 10px 10px;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
@@ -295,7 +295,7 @@ a:focus {
 .slider_section .detail-box h1 {
   font-weight: bold;
   margin-bottom: 25px;
-  font-size: 2rem;
+  font-size: xxx-large;
 }
 
 .slider_section .detail-box h1 span {
@@ -426,6 +426,10 @@ a:focus {
   position: relative;
 }
 
+.service_section_usecase{
+  background-color: gainsboro;
+}
+
 .service_section .box {
   margin-top: 45px;
   display: -webkit-box;
@@ -443,6 +447,12 @@ a:focus {
   background-color: #fafafa;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.usecase-box{
+  border-radius: 100px;
+  background-color: #02022c !important;
+  color: white;
 }
 
 .service_section .box .img-box {
@@ -1060,6 +1070,19 @@ select {
 
 html {
   scroll-behavior: smooth;
+}
+
+.font-x-large {
+  font-size: x-large;
+}
+
+.usecasehear{
+  float: left !important;
+  margin-top: 15%;
+}
+
+.usecases{
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
