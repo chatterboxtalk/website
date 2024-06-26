@@ -121,8 +121,8 @@ a:focus {
 }
 
 .header_section .container-fluid {
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .navbar-brand span {
@@ -132,8 +132,15 @@ a:focus {
   text-transform: uppercase;
 }
 
+
 .custom_nav-container {
   padding: 10px 0;
+  z-index: 9;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  overflow: hidden;
+  background-color: #020230;
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
@@ -1050,4 +1057,9 @@ select {
 .footer_section p a {
   color: inherit;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 /*# sourceMappingURL=style.css.map */
